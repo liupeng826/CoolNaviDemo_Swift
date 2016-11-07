@@ -12,7 +12,7 @@
 		3C5C2C131C06AAE700DD1828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C2C121C06AAE700DD1828 /* Assets.xcassets */; };
 		3C5C2C161C06AAE700DD1828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C2C141C06AAE700DD1828 /* LaunchScreen.storyboard */; };
 		3C5C2C1F1C06AE2300DD1828 /* CoolNavi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C2C1E1C06AE2300DD1828 /* CoolNavi.swift */; };
-		F85B4BA5737E694D9CED047E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FFC443458EDE4F704CD803 /* Pods.framework */; };
+		D8A3180CD0642D404B6A95EB /* Pods_CoolNaviDemo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A530131B1011EF2C1EE0022D /* Pods_CoolNaviDemo_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		3C5C2C151C06AAE700DD1828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C5C2C171C06AAE700DD1828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C5C2C1E1C06AE2300DD1828 /* CoolNavi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolNavi.swift; sourceTree = "<group>"; };
-		75DCB20190DBF3943D690AAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		AEF152402F4177890A12FDB6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		F3FFC443458EDE4F704CD803 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A530131B1011EF2C1EE0022D /* Pods_CoolNaviDemo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolNaviDemo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCACD7088FC35423D753DD2 /* Pods-CoolNaviDemo_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolNaviDemo_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolNaviDemo_Swift/Pods-CoolNaviDemo_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		F15733F744387E0EC048FA09 /* Pods-CoolNaviDemo_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolNaviDemo_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolNaviDemo_Swift/Pods-CoolNaviDemo_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85B4BA5737E694D9CED047E /* Pods.framework in Frameworks */,
+				D8A3180CD0642D404B6A95EB /* Pods_CoolNaviDemo_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +45,8 @@
 			children = (
 				3C5C2C0A1C06AAE700DD1828 /* CoolNaviDemo_Swift */,
 				3C5C2C091C06AAE700DD1828 /* Products */,
-				3EBCB7965A1C424DFB612558 /* Pods */,
 				7734E5C2C7F0A962DD1065E1 /* Frameworks */,
+				F6FD9F1E8F0F28557561A5B7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,21 +79,21 @@
 			path = CoolNavi;
 			sourceTree = "<group>";
 		};
-		3EBCB7965A1C424DFB612558 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				75DCB20190DBF3943D690AAC /* Pods.debug.xcconfig */,
-				AEF152402F4177890A12FDB6 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7734E5C2C7F0A962DD1065E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F3FFC443458EDE4F704CD803 /* Pods.framework */,
+				A530131B1011EF2C1EE0022D /* Pods_CoolNaviDemo_Swift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6FD9F1E8F0F28557561A5B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F15733F744387E0EC048FA09 /* Pods-CoolNaviDemo_Swift.debug.xcconfig */,
+				CBCACD7088FC35423D753DD2 /* Pods-CoolNaviDemo_Swift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,12 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C5C2C1A1C06AAE700DD1828 /* Build configuration list for PBXNativeTarget "CoolNaviDemo_Swift" */;
 			buildPhases = (
-				9515990C2520BA6CED54748A /* Check Pods Manifest.lock */,
+				68FB98CD12AC72490F929351 /* [CP] Check Pods Manifest.lock */,
 				3C5C2C041C06AAE700DD1828 /* Sources */,
 				3C5C2C051C06AAE700DD1828 /* Frameworks */,
 				3C5C2C061C06AAE700DD1828 /* Resources */,
-				989622BF9AAF02E560890664 /* Embed Pods Frameworks */,
-				F386600C13C4AFC6AE2DE496 /* Copy Pods Resources */,
+				CCE875897E34573BB7B1C945 /* [CP] Embed Pods Frameworks */,
+				02006D0AE3D5BA33A1D9A75F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,11 +126,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = ian;
 				TargetAttributes = {
 					3C5C2C071C06AAE700DD1828 = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -165,49 +166,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9515990C2520BA6CED54748A /* Check Pods Manifest.lock */ = {
+		02006D0AE3D5BA33A1D9A75F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolNaviDemo_Swift/Pods-CoolNaviDemo_Swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		989622BF9AAF02E560890664 /* Embed Pods Frameworks */ = {
+		68FB98CD12AC72490F929351 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F386600C13C4AFC6AE2DE496 /* Copy Pods Resources */ = {
+		CCE875897E34573BB7B1C945 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolNaviDemo_Swift/Pods-CoolNaviDemo_Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -250,8 +251,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -295,8 +298,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -315,6 +320,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -322,27 +328,31 @@
 		};
 		3C5C2C1B1C06AAE700DD1828 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75DCB20190DBF3943D690AAC /* Pods.debug.xcconfig */;
+			baseConfigurationReference = F15733F744387E0EC048FA09 /* Pods-CoolNaviDemo_Swift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoolNaviDemo_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ianisme.CoolNaviDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3C5C2C1C1C06AAE700DD1828 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEF152402F4177890A12FDB6 /* Pods.release.xcconfig */;
+			baseConfigurationReference = CBCACD7088FC35423D753DD2 /* Pods-CoolNaviDemo_Swift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoolNaviDemo_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ianisme.CoolNaviDemo-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
